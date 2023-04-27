@@ -1,0 +1,57 @@
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    gap: 2rem;
+    color: white;
+    background-image: linear-gradient(to right top, #28565f, #2f5956, #3c5a4e, #4a5a48, #575a45, #5d5c44, #645d43, #6b5e43, #6d6340, #6e683d, #6c6e3b, #69743a);
+}   
+.main h1{
+    font-size: 3rem;
+}
+
+.main span{
+    font-size: 2rem;
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-around;
+    gap: 2rem;
+  }
+
+.pubVideo{
+    padding: 8px 11px;
+    border-radius: 13px;
+    color: white;
+    background-color: #28cf4f;
+    border: none;
+    cursor: pointer;
+    transition: all 0.6s ease;
+    z-index: 2;
+}
+  
+.pubVideo:hover{
+    color: #28cf4f;
+    background-color: white;
+    border: 1px solid #28cf4f;
+}
+
+.subVideo{
+    padding: 8px 11px;
+    border-radius: 11px;
+    color: white;
+    background-color: #F64D08;
+    border: none;
+    cursor: pointer;
+    transition: all 0.6s ease;
+  }
+  
+.subVideo:hover{
+    color: #F64D08;
+    background-color: white;
+    border: 1px solid #F64D08;
+}
